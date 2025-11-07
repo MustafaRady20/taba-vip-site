@@ -88,6 +88,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#why-us"
+                  
                   className="text-gray-300 hover:text-yellow-500 transition-colors"
                 >
                   {t("footer.whyUs")}
@@ -112,26 +113,22 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex gap-4">
             <a
-              href="#"
+            target="_blank"
+              href="https://www.facebook.com/profile.php?id=61575092787052&mibextid=wwXIfr&rdid=VHWl8h1ZGR5VUYep&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ZXuoqXxtu%2F%3Fmibextid%3DwwXIfr#"
               className="hover:text-yellow-500 transition-colors"
               aria-label="Facebook"
             >
               <Facebook className="w-5 h-5" />
             </a>
             <a
-              href="#"
+            target="_blank"
+              href="https://www.instagram.com/viptaba"
               className="hover:text-yellow-500 transition-colors"
               aria-label="Instagram"
             >
               <Instagram className="w-5 h-5" />
             </a>
-            <a
-              href="#"
-              className="hover:text-yellow-500 transition-colors"
-              aria-label="Website"
-            >
-              <Globe className="w-5 h-5" />
-            </a>
+           
           </div>
         </div>
       </div>

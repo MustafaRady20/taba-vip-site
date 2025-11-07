@@ -31,9 +31,13 @@ export default function WhyUsSection() {
   ];
 
   const images = [
+    "/slder-image.jpg",
     "/peggy-anke-YxpoB3bvlZQ-unsplash.jpg",
     "/WhatsApp Image 2025-10-19 at 4.37.21 PM.jpeg",
     "/WhatsApp Image 2025-10-19 at 4.37.22 PM.jpeg",
+    "/slider-image-4.jpeg",
+    "/slider-image2.jpg",
+    "/slider-image0.jpeg",
   ];
 
   return (
@@ -45,9 +49,7 @@ export default function WhyUsSection() {
             {t("title")}{" "}
             <span className="text-green-600">{t("highlight")}</span>
           </h2>
-          <p className="text-gray-600 mb-8 text-lg">
-            {t("description")}
-          </p>
+          <p className="text-gray-600 mb-8 text-lg">{t("description")}</p>
 
           <div className="space-y-6">
             {reasons.map((r, i) => (
@@ -85,7 +87,7 @@ export default function WhyUsSection() {
                   alt={t("imageAlt")}
                   width={550}
                   height={400}
-                  className="rounded-2xl object-cover w-full h-full"
+                  className="rounded-2xl object-contain w-full h-full"
                 />
               </SwiperSlide>
             ))}
